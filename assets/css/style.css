@@ -1,0 +1,67 @@
+    .timeline-heading{
+        color: black;
+    }
+
+    #text-family{
+	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+	color: #fed136;
+	padding-left: 25px;
+}
+.navbar-brand{
+	font-size: 2em;
+}
+
+.navbar-default{
+    background: transparent;
+    border: 0px solid;    
+    padding: 25px 0;
+}
+
+ul, menu{
+    font-size: 16px;
+	display: block;
+    color: white;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+menu:hover{
+    color: #fed136;
+}
+
+header .intro-text{
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    margin-bottom: 150px;
+}
+header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+}
+
+header{
+    background-image: url('../images/background.jpg');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
